@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #fff0f5,
+        #fce7f3,
+        #fdf2f8
+    );
+}
+
+.login-container {
+    width: 430px;
+    background-color: white;
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Header */
+
+.login-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.salon-logo {
+    width: 60px;
+    height: 60px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #fce7f3;
+
+    font-size: 28px;
+}
+
+.login-header h1 {
+    margin: 12px 0 5px;
+
+    font-size: 28px;
+
+    color: #be185d;
+}
+
+.login-header p {
+    margin: 0;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* Tabs */
+
+.login-tabs {
+    display: flex;
+
+    gap: 5px;
+
+    margin-bottom: 25px;
+
+    background-color: #f9fafb;
+
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+.tab-btn {
+    flex: 1;
+
+    padding: 11px 5px;
+
+    border: none;
+
+    background: transparent;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    color: #555;
+
+    transition: 0.2s;
+}
+
+.tab-btn:hover {
+    background-color: #fce7f3;
+}
+
+.tab-btn.active {
+    background-color: #be185d;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+
+/* Form */
+
+.login-form h2 {
+    margin: 0;
+
+    color: #222;
+
+    font-size: 22px;
+}
+
+.form-description {
+    color: #777;
+
+    font-size: 13px;
+
+    margin-top: 6px;
+
+    margin-bottom: 22px;
+}
+
+.form-group {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #be185d;
+
+    box-shadow: 0 0 0 3px #fce7f3;
+}
+
+
+/* Submit Button */
+
+.submit-btn {
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 5px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #be185d;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #9d174d;
+}
